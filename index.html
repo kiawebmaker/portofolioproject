@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Proyek Aplikasi Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header>
+        <div class="container">
+            <h1>WebDev<span>Portfolio</span></h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#projects">Proyek</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Portofolio Proyek Aplikasi Web</h2>
+            <p>Kumpulan demo aplikasi berbasis web yang telah saya kembangkan. Silakan tonton video demonstrasinya di bawah ini.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section (3 Kolom Video) -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h3 class="section-title">Proyek Terbaru</h3>
+            
+            <div class="project-grid">
+                <!-- Kolom Proyek 1 -->
+                <div class="project-card">
+                    <div class="video-container">
+                        <!-- Ganti VIDEO_ID_1 dengan ID video YouTube Anda -->
+                        <iframe src="https://youtube.com" allowfullscreen></iframe>
+                    </div>
+                    <div class="project-info">
+                        <h4>Aplikasi E-Commerce</h4>
+                        <p>Platform toko online lengkap dengan sistem pembayaran, keranjang belanja, dan manajemen inventaris realtime.</p>
+                        <button class="btn-detail" data-project="E-Commerce">Detail Proyek</button>
+                    </div>
+                </div>
+
+                <!-- Kolom Proyek 2 -->
+                <div class="project-card">
+                    <div class="video-container">
+                        <!-- Ganti VIDEO_ID_2 dengan ID video YouTube Anda -->
+                        <iframe src="https://youtube.com" allowfullscreen></iframe>
+                    </div>
+                    <div class="project-info">
+                        <h4>Sistem Manajemen Tugas (SaaS)</h4>
+                        <p>Aplikasi web untuk kolaborasi tim, penjadwalan proyek, dan pelacakan produktivitas berbasis Kanban board.</p>
+                        <button class="btn-detail" data-project="Sistem Manajemen Tugas">Detail Proyek</button>
+                    </div>
+                </div>
+
+                <!-- Kolom Proyek 3 -->
+                <div class="project-card">
+                    <div class="video-container">
+                        <!-- Ganti VIDEO_ID_3 dengan ID video YouTube Anda -->
+                        <iframe src="https://youtube.com" allowfullscreen></iframe>
+                    </div>
+                    <div class="project-info">
+                        <h4>Dashboard Analisis Data</h4>
+                        <p>Aplikasi visualisasi data yang mengintegrasikan API eksternal untuk menampilkan grafik performa bisnis secara live.</p>
+                        <button class="btn-detail" data-project="Dashboard Analisis Data">Detail Proyek</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Portofolio Saya. Dibuat dengan HTML, CSS, dan JavaScript.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
